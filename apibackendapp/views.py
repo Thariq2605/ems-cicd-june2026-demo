@@ -97,7 +97,7 @@ class loginapiview(APIView):
             else:
                 response={
                     "status":status.HTTP_401_UNAUTHORIZED,
-                    "message":"iiiiiiiinvalid email or password,plz correct it",
+                    "message":"iiiiiiiinvalid email or password,plz correct it,thank you!",
                 }
                 return Response(response,status=status.HTTP_401_UNAUTHORIZED)
         response={
